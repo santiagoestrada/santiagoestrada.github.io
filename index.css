@@ -1,3 +1,8 @@
+:root{
+    --my-grey: #333;
+    --my-white: #ffffff;
+}
+
 body {
     background-color: #333;
 }
@@ -25,7 +30,7 @@ li {
 /* Each individual link */
 li a {
     display: block;
-    color: white;
+    color: var(--my-white);
     padding: 15px 20px;
     text-decoration: none;
 }
@@ -43,7 +48,7 @@ footer {
     margin-right: auto;
     position: fixed;
     width:100%;
-    color: black;
+    color: var(--my-grey);
     text-align: center;
 }
 
